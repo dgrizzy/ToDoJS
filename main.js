@@ -41,6 +41,7 @@ var addNewTask = function() {
 
   // Set Button's Text to User Input
   innerButton.innerText = inputBoxValue;
+  innerButton.className = "btn btn-default";
 
   // Add the ID Here
   newLI.id = 'taskNumber'+ String(taskNumber.totalTasks);

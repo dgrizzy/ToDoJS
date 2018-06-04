@@ -12,3 +12,7 @@ h2 {
   font-size: 11pt;
 
 }
+
+ul {
+  list-style-type: none;
+}
